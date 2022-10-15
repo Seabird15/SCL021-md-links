@@ -3,5 +3,16 @@
   "version": "0.1.0",
   "engines": {
     "node": ">=16.x"
+  },
+  "main": "index.js",
+  "bin": {
+    "mdlink": "index.js"
+  },
+  "dependencies": {
+    "fetch": "^1.1.0",
+    "fs-extra": "^10.1.0",
+    "node-fetch": "^3.2.10",
+    "parse-md": "^3.0.3",
+    "path": "^0.12.7"
   }
 }
